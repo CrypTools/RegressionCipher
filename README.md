@@ -78,9 +78,10 @@ const polynomial = t.polynomial(...constants) // t is referring to TheoremJS, an
 
 ## Implementations
 
-Language   | Encrypt                     | Decrypt
----------- | --------------------------- | ---------------------------
-Javascript | [encrypt.js](js/encrypt.js) | [decrypt.js](js/decrypt.js)
+Language                     | Encrypt                           | Decrypt
+---------------------------- | --------------------------------- | ---------------------------------
+Javascript                   | [encrypt.js](js/encrypt.js)       | [decrypt.js](js/decrypt.js)
+Javascript (no dependencies) | [encrypt-v2.js](js/encrypt-v2.js) | [decrypt-v2.js](js/decrypt-v2.js)
 
 ## Running the tests
 
